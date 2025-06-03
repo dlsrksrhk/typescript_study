@@ -10,3 +10,5 @@ let num7: number = NaN;
 let hello: null = null;
 let world: undefined = undefined;
 let numA: number = null;
+
+let numB: 100 = 100;
