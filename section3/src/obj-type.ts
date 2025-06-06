@@ -43,4 +43,4 @@ let dog2: Dog = {
   bark: () => console.log("멍멍"),
 };
 
-printAniamal(dog2); //이렇게 하면 초과 프로퍼티 검사에 걸림
+printAniamal(dog2);
