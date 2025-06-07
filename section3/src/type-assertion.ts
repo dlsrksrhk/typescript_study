@@ -19,3 +19,16 @@ let cat = {
   name: "Whiskers",
   age: 5,
 } as const;
+
+type Post = {
+  title: string;
+  author?: string;
+};
+
+let post: Post = {
+  title: "TypeScript Basics",
+  author: "John Doe",
+};
+
+// const len: number = post.author!.length;
+const len: number = post.author?.length || 0;
