@@ -27,5 +27,5 @@ type FuncF = (a: number, b: number) => void;
 let funcE: FuncE = (a) => {};
 let funcF: FuncF = (a, b) => {};
 
-funcE = funcF; //불가능
+// funcE = funcF; //불가능
 funcF = funcE; //가능
