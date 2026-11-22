@@ -2,9 +2,9 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
+    "moduleResolution": "bundler",
     "outDir": "dist",
     "strict": true,
-    "strictNullChecks": false,
     "moduleDetection": "force"
   },
   "include": ["src"]
